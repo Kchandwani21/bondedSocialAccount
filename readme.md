@@ -2,13 +2,12 @@ services for 'bonded telegram group'
 group member must bond to provider account within grace period specified from config.json
 to remain in group.  
 
-npm install
-node telegram_worker.js
-node account_worker.js
+    npm install
+    node telegram_worker.js
+    node account_worker.js
 
 the following is dummy data for config.json
 
-{
 //telegram api this.bot token. can be genereated via chat with @BotFather telegram bot 
 
     "botToken":"5190443543253463:AAE7RiA0dUktREm831zay0",
@@ -35,4 +34,3 @@ the following is dummy data for config.json
     "periodPollContract":1000,
     "periodPollDatabase":1000,
     "periodGrace":10000
-}
