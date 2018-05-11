@@ -1,0 +1,30 @@
+{
+  "name": "bondedsocialaccount",
+  "version": "1.0.0",
+  "main": "init.js",
+  "dependencies": {
+    "babel-runtime": "^6.26.0",
+    "ethereumjs-util": "^5.2.0",
+    "ethjs": "^0.3.6",
+    "mysql": "^2.15.0",
+    "mysqljs": "^0.0.2-security",
+    "node-telegram-bot-api": "^0.30.0",
+    "sqlite-async": "^1.0.10",
+    "sqlite3": "^4.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zwalla/bondedSocialAccount.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zwalla/bondedSocialAccount/issues"
+  },
+  "homepage": "https://github.com/zwalla/bondedSocialAccount#readme",
+  "description": ""
+}

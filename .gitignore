@@ -1,7 +1,4 @@
-.DS_Store
-node_modules/
-ipfs/
-src/.synapseprovider
-src/.synapsesubscriber
-.nyc_output
-coverage/
+/.idea
+/build
+/node_modules
+package-lock.json
