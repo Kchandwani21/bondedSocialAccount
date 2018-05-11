@@ -114,44 +114,4 @@ console.log(rows);
         }
 }
 
-async function main(){
-    let t = new dbHandler();
-
-    await t.openTable();
-    // await t.dropTable();
-    // await t.createTable();
-    // await t.emptyAccounts();
-
-    let user = 'spacevikiing';
-    let userid = 411256960;
-
-    // await t.newAccount(user, userid);
-
-    // await t.verify(user,'0x0');
-
-    // let bal =  await t.getBalance(user);
-    // console.log(bal);
-    //
-    await t.updateBalance(user,10);
-    bal =  await t.getBalance(user);
-    console.log(bal);
-    //
-    // await t.markBanned(user);
-    // let banned = await t.getBanned();
-    // console.log(banned);
-    //
-    // await t.markNotBanned(user);
-    // banned = await t.getBanned();
-    // console.log(banned);
-    //
-    // let del = await t.getDelinquent();
-    // console.log(del);
-    //
-    // let staked = await t.getStaked();
-    // console.log(staked);
-}
-    
-    
-// main();
-
 module.exports = dbHandler;
