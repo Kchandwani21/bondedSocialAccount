@@ -1,7 +1,7 @@
 {
-    "botToken":"519066963:AAE7RiKqSfj4IjMmPeoA0dUktREm831zay0",
+    "botToken":"519066963:gdgreegwergs",
     "chatId":-1001271542360,
-    "accountAddress":"0xea7ed4a6bdc64d0e74d5acd5f0a752bb692c3401",
+    "accountAddress":"0xea7ed4a6bdc64d0e74dfdggd0a752bb692c3401",
     "endpoint":"test-linear-specifier",
     "networkId":"development",
     "provider":"http://127.0.0.1:9545",
